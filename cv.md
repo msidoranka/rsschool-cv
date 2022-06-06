@@ -33,6 +33,11 @@
     + Italian A2
 
 ## Code Example:
+```
+function multiply(a, b) {
+  return a * b;
+}
+```
 
 ## Experience:
 * Software Engineer
