@@ -32,3 +32,16 @@
     + English C1
     + Italian A2
 
+## Code Example:
+
+## Experience:
+* Software Engineer
+* Content Manager
+
+## Education:
+**University:** APA, economist-manager IT
+
+**Courses:** SAP Business Objects
+
+## English:
+C1 (fluently read technical literature and speak English with native speakers)
