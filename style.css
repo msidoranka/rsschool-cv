@@ -9,7 +9,9 @@
      src: url("assets/fonts/Roboto-Regular.ttf");
      font-weight: 300;
    }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto';
     min-height: 100vh;
@@ -26,4 +28,39 @@ body{
 
 .header, .main, .footer{
     border: 1px solid rebeccapurple;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+/*a{
+    text-decoration: none;
+    color: rgb(18, 152, 18);
+    font-size: 14px;
+}*/
+
+.header a{
+    color: rgb(65, 65, 190);
+    text-decoration: none;
+    transition: color 0.5s;
+    font-size: 14px;
+}
+
+.header a:hover{
+    color: rgb(169, 8, 8);
 }
