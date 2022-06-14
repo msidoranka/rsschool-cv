@@ -13,7 +13,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(8, 113, 8);
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -27,12 +31,21 @@ body{
 }
 
 .header, .main, .footer{
-    border: 1px solid rebeccapurple;
+    border: 1px solid rgb(231, 255, 214);
+}
+
+.header{
+    background-color: rgb(231, 255, 214);
+    }
+
+p{
+    line-height: 1.3;
 }
 
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    min-height: 50px;
 }
 
 .nav-list{
@@ -48,19 +61,66 @@ body{
     transition: .3s;
 }
 
-/*a{
-    text-decoration: none;
-    color: rgb(18, 152, 18);
-    font-size: 14px;
-}*/
-
-.header a{
-    color: rgb(65, 65, 190);
+a{
+    color: rgb(8, 113, 8);
     text-decoration: none;
     transition: color 0.5s;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.header a:hover{
-    color: rgb(169, 8, 8);
+a:hover{
+    color: rgb(57, 198, 57);
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section{
+    width: 50%;
+    padding: 10px;
+    border-bottom: 2px solid rgb(231, 255, 214);
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .section{
+        width: 100%;
+    }
+}
+
+h1.section-title{
+    font-size: 30px;
+    color: rgb(11, 140, 11);
+    text-align: center;
+}
+
+h2.section-title{
+    font-size: 25px;
+    color: rgb(11, 140, 11);
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+
+.section-profile{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 50px;
+    border-bottom: 5px dotted rgb(231, 255, 214);
+}
+
+.section-profile-title{
+    text-align: center;
+}
+
+h3{
+    color: rgb(11, 140, 11);
 }
