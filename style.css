@@ -17,7 +17,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: rgb(8, 113, 8);
+    color: #087108;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -30,12 +30,14 @@ body{
     box-sizing: border-box;
 }
 
-.header, .main, .footer{
-    border: 1px solid rgb(231, 255, 214);
+.header, 
+.main, 
+.footer{
+    border: 1px solid #e7ffd6;
 }
 
 .header{
-    background-color: rgb(231, 255, 214);
+    background-color: #e7ffd6;
     }
 
 p{
@@ -62,14 +64,14 @@ p{
 }
 
 a{
-    color: rgb(8, 113, 8);
+    color: #087108;
     text-decoration: none;
     transition: color 0.5s;
     font-size: 16px;
 }
 
 a:hover{
-    color: rgb(57, 198, 57);
+    color: #39c639;
 }
 
 .main-container{
@@ -81,7 +83,7 @@ a:hover{
 .section{
     width: 50%;
     padding: 10px 20px;
-    border-bottom: 2px solid rgb(231, 255, 214);
+    border-bottom: 2px solid #e7ffd6;
     padding-bottom: 30px;
 }
 
@@ -93,13 +95,13 @@ a:hover{
 
 h1.section-title{
     font-size: 30px;
-    color: rgb(11, 140, 11);
+    color: #0b8c0b;
     text-align: center;
 }
 
 h2.section-title{
     font-size: 25px;
-    color: rgb(11, 140, 11);
+    color: #0b8c0b;
 }
 
 .avatar{
@@ -114,7 +116,7 @@ h2.section-title{
     justify-content: space-around;
     width: 100%;
     padding: 30px 50px;
-    border-bottom: 5px dotted rgb(231, 255, 214);
+    border-bottom: 5px dotted #e7ffd6;
 }
 
 .section-profile-title{
@@ -122,11 +124,11 @@ h2.section-title{
 }
 
 h3{
-    color: rgb(11, 140, 11);
+    color: #0b8c0b;
 }
 
 .footer{
-    background-color: rgb(231, 255, 214);
+    background-color: #e7ffd6;
     padding: 20px;
 }
 
