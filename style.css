@@ -124,3 +124,21 @@ h2.section-title{
 h3{
     color: rgb(11, 140, 11);
 }
+
+.footer{
+    background-color: rgb(231, 255, 214);
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rss{
+    width: 140px;
+    height: 40px;
+    background-image: url(./assets/img/rss.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
